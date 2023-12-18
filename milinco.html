@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-cqfOn5z5Mu9iwyJsL8ekvZJpFkYTdf1pRY8r6fSEfM9f9Z6tZxAVlJ7eMz4kGo3J46ttHNW5Hl2xPrI35VogvA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="milinco.css">
+    <title>Portfolio Jorge Diez Rodriguez</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/JDR/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#habilidades" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                        <a href="https://github.com/Jdiez93" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jorge-diez-rodriguez-4a7844293/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/milinco_93/?next=%2F" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                    </nav>
+
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy Jorge Diez, Desarrollador Web</h2>
+                <p class="descripcion">LLevo poco tiempo en el sector pero tengo muchas ganas y ambicion en mejorar y
+                    aprender dia a dia.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/image0 (2).jpeg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Jorge Diez Rodriguez</span> </h2>
+            <h3>Desarrollador Web</h3>
+            <p>Con 16 años fui 1 año a estudiar a irlanda donde aprendi mucho ingles</p>
+            <p>En cuanto a idiomas tengo un español nativo, Ingles C1 y Frances nivel basico</p>
+            <p>Practico mucho deporte</p>
+            <p>Me gustan los animales</p>
+            <p>Trabajo bien en equipo</p>
+            <p>Soy muy organizado</p>
+            <p>Me gusta enfrentarme a nuevos retos</p>
+
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Diseño de Sitios Web</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Designer</li>
+
+                </ul>
+                <p>Puedo hacer paginas web con lo que me pidas</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-laptop-code"></i></span>
+                <h4>Porgramación Java</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Programador </li>
+                    <li>Java</li>
+
+                </ul>
+                <p>Si necesitas codigo especifico de Java yo te lo puedo proporcionar</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                <h4>Creacion Base de datos</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Creador</li>
+                    <li>Base de Datos</li>
+
+                </ul>
+                <p>Tengo el conocimiento para crear una Base de datos</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-github"></i></span>
+                <h4>GitHub</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Ayuda</li>
+                    <li>GitHub</li>
+
+                </ul>
+                <p>Como todos los desarrolladores sabemos GitHub da muchos errores, yo puedo ayudaros a solucionarlos.
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Diseñador Gráfico</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Diseño</li>
+                    <li>Grafico</li>
+
+                </ul>
+                <p>Si no necesitas una web entera y solo el diseño grafico tengo conocimiento y experiencia para hacerlo
+                </p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-js"></i></span>
+                <h4>Programacion JavaScript</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li></li>
+                    <li>JavaScript</li>
+                    <li></li>
+                </ul>
+                <p>Tengo alto cocnocimiento en JavaScript.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="habilidades" id="habilidades">
+        <h2 class="header-habilidadr">Mis mejores habilidades</h2>
+
+        <div class="contenedor-habilidades">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="img/html.png" alt="" loading="lazy" class="icon icon-card" />
+                <img src="img/css.png" loading="lazy" class="icon icon-card" />
+                <img src="img/java.png" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img src="img/boots.png" alt="" loading="lazy" class="icon icon-card" />
+                <img src="img/react.png" alt="" loading="lazy" class="icon icon-card" />
+                <img src="img/git.jpg" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+
+            <div class="contenedor-habilidades">
+                <div class="first-set animate__animated animate__pulse">
+                    <img src="img/angular.png" alt="" loading="lazy" class="icon icon-card" />
+                    <img src="img/mysql.png" loading="lazy" class="icon icon-card" />
+                    <img src="img/mongo.png" alt="" loading="lazy" class="icon icon-card" />
+                </div>
+                <div class="contenedor-habilidades">
+                    <div class="first-set animate__animated animate__pulse">
+                        <img src="img/node.png" alt="" loading="lazy" class="icon icon-card" />
+                        <img src="img/oracle.jpg" loading="lazy" class="icon icon-card" />
+                        <img src="img/php.png" alt="" loading="lazy" class="icon icon-card" />
+                    </div>
+                    <div class="contenedor-habilidades">
+                        <div class="first-set animate__animated animate__pulse">
+                            <img src="img/swift.png" alt="" loading="lazy" class="icon icon-card" />
+                            <img src="img/tailwind.png" loading="lazy" class="icon icon-card" />
+                            <img src="img/type.png" alt="" loading="lazy" class="icon icon-card" />
+                        </div>
+                    </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/master.png" alt="pagina">
+                <div class="info">
+                    <a href="https://mastermind-jdr.netlify.app/" target="_blank">
+                        <h4>Juego MasterMind</h4>
+                    </a>
+                    <p>Juego creado por mi para entretenerse un rato</p>
+                </div>
+            </div>
+            <!-- <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div> -->
+            <!-- <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+            </div> -->
+        </div>
+        </div>
+
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                        class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <div class="column">
+            <p>Jorge Diez Rodriguez - 2023</p>
+            <p>jorge.desarolloweb@gmail.com</p>
+            <p>(+34) 684313491</p>
+        </div>
+
+        <div class="column">
+            <ul>
+                <p>Services:</p>
+                <li>Diseño sitios web</li>
+                <li>Programacion</li>
+                <li>Base de datos</li>
+                <li>GitHub</li>
+                <li>Diseño grafico</li>
+
+            </ul>
+        </div>
+
+        <div class="column">
+            <a href="https://github.com/Jdiez93" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/jorge-diez-rodriguez-4a7844293/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/milinco_93/?next=%2F" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+        </div>
+
+    </footer>
+
+
+    <script src="milinco.js"></script>
+</body>
+
+</html>
